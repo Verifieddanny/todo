@@ -14,25 +14,8 @@
 
     <title>Frontend Mentor | Todo app</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style> -->
   </head>
   <body>
-    <!-- Todo -->
-    <!-- Add dynamic number items left
-  All
-  Active 
-  Completed
-  Clear Completed
-  Drag and drop to reorder list -->
     <div class="topImage"></div>
     <div class="mainCont">
       <div class="top">
@@ -46,74 +29,26 @@
       </div>
 
       <div class="bottom">
-        <div class="topB">
-          <!-- <div class="out">
-            <div class="in">
-              <div class="tick check"><p class="ticked">✓</p></div>
-              <p class="todo">Get some bucket</p>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="18"
-              class="mainClose"
-            >
-              <path
-                fill="#494C6B"
-                fill-rule="evenodd"
-                d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
-                class="close"
-              />
-            </svg>
-          </div>
-          <div class="out">
-            <div class="in">
-              <div class="tick check"><p class="ticked">✓</p></div>
-              <p class="todo">Get some bucket</p>
-            </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="18"
-              class="mainClose"
-            >
-              <path
-                fill="#494C6B"
-                fill-rule="evenodd"
-                d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
-                class="close"
-              />
-            </svg>
-          </div> -->
-        </div>
+        <div class="topB"></div>
         <div class="lowB">
           <p class="low"><span class="numbers"></span>items left.</p>
-          <ul>
+          <!-- <ul>
             <li>All</li>
             <li>Active</li>
             <li>Completed</li>
-          </ul>
+          </ul> -->
           <p class="low">Clear Completed.</p>
         </div>
       </div>
       <p class="last">Press 'Enter' to add!</p>
     </div>
+
+    <div class="adds" id="button">+</div>
     <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="18"
-      height="18"
-      class="mainClose closed please"
-    >
-      <path
-        fill="#494C6B"
-        fill-rule="evenodd"
-        d="M16.97 0l.708.707L9.546 8.84l8.132 8.132-.707.707-8.132-8.132-8.132 8.132L0 16.97l8.132-8.132L0 .707.707 0 8.84 8.132 16.971 0z"
-      />
-    </svg>
+
     <script src="./app.js"></script>
   </body>
 </html>

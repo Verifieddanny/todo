@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-## live site => https://verifieddanny.github.io/todo/
+ live site => https://luminous-babka-a48912.netlify.app/
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
